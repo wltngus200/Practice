@@ -32,7 +32,7 @@ public class Practice02_if {//같은 이름의 클래스 정의
         // ||(or)기호는 원 기호 위의 기호
         */
 
-        /*
+
         //3가지 수를 비교하는 if문
         System.out.print("a:");
         int a=wtf.nextInt();
@@ -46,7 +46,7 @@ public class Practice02_if {//같은 이름의 클래스 정의
         if (a<c){
             max=c;}
         System.out.print("가장 큰 수는"+max+"입니다.");
-        */
+
         }
 
 }

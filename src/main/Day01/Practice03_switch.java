@@ -47,6 +47,7 @@ public class Practice03_switch {
             System.out.print("F");
             break;
             //그 외의 어떤 값을 주어도 디폴트값
+            //이거 커밋 왜 안 돼??
     }
     }
 }
