@@ -1,7 +1,6 @@
-import java.util.Random;
 import java.util.Scanner;
 
-public class Practice_04 {
+public class Practice_04_dowhile_while_for {
     public static void main(String[] args){
         Scanner sunday= new Scanner(System.in);
         /*int retry=0;
