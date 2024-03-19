@@ -129,7 +129,7 @@ public class Practice05_array2 {
             }
         }System.out.println("정답입니다.");
         //영상에서는 영어로 월이 나와서 멋있었는데 내건 바보한테 묻는거 같다 ㅋㅋㅋㅋ
-        *///
+        */
 
         //2차원 배열 2개의 값을 이용해 행과열
         System.out.print("행수:");
