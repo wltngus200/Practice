@@ -248,6 +248,6 @@ public class Practice05_array {
             }
             System.out.println("정답입니다.");
             //영상에서는 영어로 월이 나와서 멋있었는데 내건 바보한테 묻는거 같다 ㅋㅋㅋㅋ
-        }
+        }//
     }
 }
