@@ -121,6 +121,6 @@ public class Practice05_array {
         //그리고 아직 리턴값 안 배워서 k를 재설정함
         //max함수 활용할 줄을 모름 ㅋㅋㅋㅋㅋ
         */
-
+//
     }
 }
