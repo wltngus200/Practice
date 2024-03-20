@@ -1,11 +1,10 @@
-import com.sun.tools.attach.AgentInitializationException;
-
 import java.util.Scanner;
 
-public class Practice06_Math {
+public class Practice06_Math_WantNOTE {
     public static void main(String[] args) {
         //매서드
-        //근데 메서드 맨 밑에 있어도 위로 불러올 수 있네
+        //★근데 메서드 맨 밑에 있어도 위로 불러올 수 있네
+        //★★★★★★★★★★필기 포인트가 될만한 곳에 별을 찍었다
 
         //배열 활용해 사용자에게 키 몸무게 나이를 입력받아 가장 큰 값
         Scanner scan = new Scanner(System.in);
@@ -53,7 +52,7 @@ public class Practice06_Math {
         int maxHeight=max(height[0],height[1],height[2]);
         int maxWeight=max(weight[0],weight[1],weight[2]);
         int maxAge=max(age[0],age[1],age[2]);
-        //max()메소드 명과 함수값으로 호출 메소드는 괄호!
+        //★max()메소드 명과 함수값으로 호출 메소드는 괄호!
 
         System.out.printf("신장의 최대값은 %d입니다.\n", maxHeight);
         System.out.printf("체중의 최대값은 %d입니다.\n", maxWeight);
@@ -92,12 +91,10 @@ public class Practice06_Math {
 
 
 
-
-
     //-------[메소드 라인]--------------------------------
     //새로운 메서드
     static int max(int a,int b,int c){
-            //-----메서드 명과 함수값------
+            //★-----메서드 명과 함수값------
         int max=a;
         if(b>max){max=b;}//세미콜론 위치도 까먹네
         if(c>max){max=c;}
@@ -132,8 +129,8 @@ public class Practice06_Math {
 
     //별찍기 찐
     static void putStars(int n){
-        //리턴하는 값이 있으면 해당 값. 없으면 void형
-        while (n-->0){//n이 1씩 감소하고, 그게 0보다 큰 동안(이런 표기도 가능하네)
+        //★리턴하는 값이 있으면 해당 값. 없으면 void형
+        while (n-->0){//★n이 1씩 감소하고, 그게 0보다 큰 동안(이런 표기도 가능하네)
             //입력받은 정수 n값만큼 별을 출력
             System.out.print("*");
             //5강 ~16분

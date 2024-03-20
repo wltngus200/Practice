@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class Practice05_array2 {
     public static void main(String[] args){
-        //배열 값 검색 선형검색:
+        //★배열 값 검색 선형검색:
         //직선 모양으로 늘어선 배열에서 원하는 키 값을 갖는 요소를 만날 때까지
         // 맨 앞부터 순서대로 요소를 검색하는 방식
         Scanner scan=new Scanner(System.in);
@@ -37,7 +37,7 @@ public class Practice05_array2 {
         }
 
         //break를 활용해 배열안에 있는지 찾는법인데....
-        //검색이긴한데 첫번째 만나는 애만 알 수 있다 아쉽네
+        //+++++++검색이긴한데 첫번째 만나는 애만 알 수 있다 아쉽네
          */
 
 
@@ -66,7 +66,7 @@ public class Practice05_array2 {
         //배열의 값을 복사(스스로 해본 결과= 좋았음)
         /*System.out.print("요소 수");
         int num=scan.nextInt();
-        int[] a=new int[num];//배열 생성공식 기억하자!
+        int[] a=new int[num];//★배열 생성공식 기억하자!
         int[] b=new int[num];
 
         for(int i=0;i<num;i++){
@@ -94,14 +94,15 @@ public class Practice05_array2 {
         System.out.print("요소 수");
         int num2=scan.nextInt();//뭐 틀렸나?
 
-        int[] c=new int[num2];//배열 생성공식 기억하자!
+        int[] c=new int[num2];//★배열 생성공식 기억하자!
         int[] d=new int[num2];
 
         for(int i=0;i<num2;i++){//c배열에 수를 넣는 과정
             c[i]=scan.nextInt();
             d[i]=c[i];
-            //직접입력받을거면 한방에 넣으면 안되나??라는 의문에서 시작
+            //직접 입력받을 거면 한방에 넣으면 안되나??라는 의문에서 시작
             //okok c=d=입력 같은 함수가 안됨 그렇다고 또 넥스트 넣으면 다른값 들어감
+            //뭐라는겨 위 아래 복붙해서 뭘 시도한 거 같긴한데 졸려서 체크할 정신이 없+++++
         }
         for(int k=0;k<num2;k++) {
             System.out.println("c[" + k + "]=" + c[k]);
@@ -119,7 +120,7 @@ public class Practice05_array2 {
         System.out.println("문제는 " + monthString[month]);
         //monthString[month]은 글자
 
-        while(true){//무한함수 주의 do while 대신 while if
+        while(true){//★무한함수 주의 do while 대신 while if
             System.out.print("월을 입력하세요.");
             int answer=scan.nextInt();
             if(answer==month+1){//수치와 수치비교 == month는 0에서 시작 +1
