@@ -136,6 +136,15 @@ public class Practice05_array2 {
         int h=scan.nextInt();
         System.out.print("열수:");
         int w=scan.nextInt();
-        //37분
+
+        int[][]x=new int [h][w];
+        for (int i=0;i<h;i++) {
+            for (int j = 0; j < w; j++) {
+                {
+                    x[i][j] = rand.nextInt(100);
+                    System.out.println("x[" + i + "][" + j + "]=" + x[i][j]);
+                }//위에거 안 된 이유가 println이어서네 ㅋㅋㅋ f해야지 바보야
+            }
+        }
     }
 }
