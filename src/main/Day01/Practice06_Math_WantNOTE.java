@@ -88,9 +88,6 @@ public class Practice06_Math_WantNOTE {
     }
 
 
-
-
-
     //-------[메소드 라인]--------------------------------
     //새로운 메서드
     static int max(int a,int b,int c){
