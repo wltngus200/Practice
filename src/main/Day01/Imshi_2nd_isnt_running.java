@@ -15,7 +15,7 @@ public class Imshi_2nd_isnt_running {
 
         for(int i=0;i<num;i++){
             a[i]=rand.nextInt(50);//영상에서는 직접 입력받음
-            //직접입력받을거면 한방에 넣으면 안되나??
+            //직접 입력받을거면 한방에 넣으면 안되나??
         }
         for(int j=0;j<num;j++){
             b[j]=a[j];

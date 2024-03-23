@@ -71,19 +71,19 @@ public class Practice06_Math_WantNOTE {
 
     */
 
-    System.out.println("좌하변이 직각인 직각삼각형을 표시합니다.");
-    System.out.print("몇단:");
-    int n=scan.nextInt();
+        System.out.println("좌하변이 직각인 직각삼각형을 표시합니다.");
+        System.out.print("몇단:");
+        int n = scan.nextInt();
 
-    for(int i=1;i<=n;i++){
-        putStars(i);
-        //아 여태까지 메소드 먼저 했잖아요 사람헷갈리게
-        //그것도 그건데 왜 for은 한번 깔아요
-        //메소드도 복잡한데 이걸 이케 한다고??
-        //여기 n이랑 메소드 안의 n이랑 다르잖아.. 여기 n이 i잖아..
-        //내거랑 비교하려고 했는데 차마 너무 달라서 비교도 못하겠다.
-        System.out.println();
-    }
+        for (int i = 1; i <= n; i++) {//1~사용자의 입력값 n까지
+            putStars(i);//점점 1개씩 증가하고 줄을 내리는 메서드
+            //for을 왜 바깥에 한번 설정하지??
+            //메소드도 복잡한데 이걸 이케 한다고??
+            //여기 n이랑 메소드 안의 n이랑 다르잖아.. 여기 n이 i잖아..
+            //내거랑 비교하려고 했는데 차마 너무 달라서 비교도 못하겠다.
+            System.out.println();
+        }
+
 
     }
 
@@ -125,17 +125,14 @@ public class Practice06_Math_WantNOTE {
             }System.out.println()//오늘자 수현이가 까먹은 거
             return star;
         }
-    }*///혼자 만들어본 별찍기 개같이 실팽! int i,j도 설정했어야하나?
+    }*///혼자 만들어본 별찍기 개같이 실패! int i,j도 설정했어야하나?
 
     //별찍기 찐
     static void putStars(int n){
-        //★리턴하는 값이 있으면 해당 값. 없으면 void형
+        //★리턴하는 값이 있으면 해당 타입 기술. 없으면 void형
         while (n-->0){//★n이 1씩 감소하고, 그게 0보다 큰 동안(이런 표기도 가능하네)
             //입력받은 정수 n값만큼 별을 출력
             System.out.print("*");
-            //5강 ~16분
-
-
         }
     }
 }
