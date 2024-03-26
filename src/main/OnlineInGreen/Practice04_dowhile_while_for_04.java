@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Practice04_dowhile_while_for {
+public class Practice04_dowhile_while_for_04 {
     public static void main(String[] args){
         Scanner sunday= new Scanner(System.in);
         /*int retry=0;

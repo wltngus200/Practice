@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Practice02_if {//같은 이름의 클래스 정의
+public class Practice02_if_02 {//같은 이름의 클래스 정의
     public static void main(String[] args){
         //메인 메서드 지정(프로그램 구동할 수 있게)
         Scanner wtf=new Scanner(System.in);

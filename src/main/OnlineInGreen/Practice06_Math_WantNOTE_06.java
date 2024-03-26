@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Practice06_Math_WantNOTE {
+public class Practice06_Math_WantNOTE_06 {
     public static void main(String[] args) {
         //매서드
         //★근데 메서드 맨 밑에 있어도 위로 불러올 수 있네

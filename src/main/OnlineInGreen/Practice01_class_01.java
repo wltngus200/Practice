@@ -1,4 +1,6 @@
-public class Practice01_class {
+import java.util.Random;
+
+public class Practice01_class_01 {
     public static void main(String[] args){
         /*
         Scanner stuId=new Scanner(System.in);
@@ -12,14 +14,14 @@ public class Practice01_class {
         //학원 동영상 강의 1강 + p.510
         */
 
-        /*
+
         Random ok=new Random();
-        int lucky=ok.nextInt(10); //bound??
+        int lucky=ok.nextInt(999-100); //bound??
         System.out.print("당신의 행운의 숫자는"+lucky+"입니다");
         //범위를 지정하여 랜덤한 값을 넣음
         //패키지 리포트(import)가 필요함
         //클래스명(젤 처음이 이름) 뒤의 객체는 뒤의 변수의 매소드(?)와 일치(위는 ok)
         //학원 동영상 강의 1강 + p.500
-        */
+
     }
 }

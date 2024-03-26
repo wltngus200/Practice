@@ -1,7 +1,6 @@
-import java.util.Random;
 import java.util.Scanner;
 
-public class Practice05_array {
+public class Practice05_array_05 {
     public static void main(String[] asgs) {
         //배열 여러개의 값을 한꺼번에 처리하기 위해 필요
         Scanner scan = new Scanner(System.in);

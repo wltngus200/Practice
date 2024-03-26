@@ -1,7 +1,7 @@
 import java.util.Random;
 import java.util.Scanner;
 
-public class Practice05_array2 {
+public class Practice05_array2_05 {
     public static void main(String[] args){
         //★배열 값 검색 선형검색:
         //직선 모양으로 늘어선 배열에서 원하는 키 값을 갖는 요소를 만날 때까지

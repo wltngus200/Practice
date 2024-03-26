@@ -3,4 +3,6 @@ include 'src:main:Day01'
 findProject(':src:main:Day01')?.name = 'Day01'
 include 'src:main:Day02'
 findProject(':src:main:Day02')?.name = 'Day02'
+include 'src:main:Day01:OnlineInGreen'
+findProject(':src:main:Day01:OnlineInGreen')?.name = 'OnlineInGreen'
 

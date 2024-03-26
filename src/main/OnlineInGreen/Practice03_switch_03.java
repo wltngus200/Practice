@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Practice03_switch {
+public class Practice03_switch_03 {
     public static void main(String[] args){
         Scanner Rsp=new Scanner(System.in);
         /*

@@ -128,7 +128,7 @@ public class Practice08_class {
     }
 
 
-    class Account {//왜 이렇게 되는 거지??//클래스가 2개 뜨네
+    class Account2 {//왜 이렇게 되는 거지??//클래스가 2개 뜨네
         //배열을 활용해 같은 종류에 묶어 다룸 지금은 다른 종류의 데이터 하나의 클래스로 묶어 관리
         //계좌명 계좌번호 예금정보
         private String name;//이름
@@ -139,7 +139,7 @@ public class Practice08_class {
 
         //생성자=객체를 생성할때 초기값
         //어카운트 클래스
-        Account(String n, String num, long z) {
+        Account2(String n, String num, long z) {
             name = n;
             no = num;
             balance = z;
@@ -167,6 +167,7 @@ public class Practice08_class {
 
         }
     }
+
 
     //데이 새로운 클래스
     class Day {//클래스
